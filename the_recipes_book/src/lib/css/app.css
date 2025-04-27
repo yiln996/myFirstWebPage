@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/src/fonts/JosefinSans.ttf');
+}
+
+@font-face {
+    font-family: 'March Rough';
+    src: url('/src/fonts/March\ Rough.ttf');
+}
+
+
+p,
+li {
+    font-family: 'JosefinSans', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'March Rough', Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    font-family: 'JosefinSans', Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url('/images/background2.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
